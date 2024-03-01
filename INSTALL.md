@@ -10,5 +10,4 @@ Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cl
 4. Ingresar a la raiz del proyecto clonado y ejecutar en comando `npm install` para descargar todas las dependencias del proyecto
 
 ## Servidor de desarrollo
-
-Ejecute  `ng serve` para un servidor de desarrollo. Navegar a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
+Ejecutar el comando `ng serve` para ejecutarlo en el navegador web.  Ingresar en el navegador a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
