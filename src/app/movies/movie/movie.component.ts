@@ -17,7 +17,7 @@ constructor(private activatedRoute:ActivatedRoute, private searcher:SearcherServ
 movie: Movie= new Movie;
 async ngOnInit() {
   try {
-    const req: any = await this.searcher.getMovie(this.activatedRoute.snapshot.params.id)
+    const req: any = await this.searcher.getMovie(this.activatedRoute.snapshot.params['id'])
     if (req.Response) {
       console.log(req);
       this.movie=req;
