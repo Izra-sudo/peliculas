@@ -15,7 +15,20 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4 col-sm-6 col-12">
-      <app-searcher></app-searcher>
+      <app-searcher (movieSelected)="onMovieSelected($event)"></app-searcher>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-12" *ngFor="let movie of movies">
+      <div class="card">
+        <img class="card-img-top custom-card-img" [src]="movie.Poster">
+        <div class="card-body">
+          <h5 class="card-title">{{movie.Title}}</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Escribe el nombe de la pelicula" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <input type="text" class="form-control" placeholder="Escribe el nombe de la pelicula" [(ngModel)]="name">
   <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+    <button class="btn btn-outline-secondary" type="button" (click)="selectMovie()"><i class="fas fa-search"></i></button>
   </div>
 </div>
