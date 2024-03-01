@@ -3,10 +3,11 @@
 Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
 ## Despliegue
-1. Instale la ultima version de NodeJs en su equipo
+1. Instale la ultima version de NodeJs en su equipo `https://nodejs.org`
 2. Ejecutar el comando `npm install -g @angular/cli` para instalar angular en la computadora.
-3. clonar el repositorio
-4. En consola dirigirse a la raiz del proyecto clonado localmente y ejecutar el comando `npm install` para descargar todas las dependencias del proyecto
+3. Crear una carpeta en su equipo
+3. Dentro de la carpeta clonar el repositorio con el comando `git clone https://github.com/Izra-sudo/peliculas.git` 
+4. Ingresar a la raiz del proyecto clonado y ejecutar en comando `npm install` para descargar todas las dependencias del proyecto
 
 ## Servidor de desarrollo
 

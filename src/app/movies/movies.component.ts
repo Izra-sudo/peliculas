@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SearcherService } from '../services/searcher.service';
 import { CommonModule } from '@angular/common';
 import Swal from 'sweetalert2';
+import { Movie } from '../models/movie.model';
 @Component({
     selector: 'app-movies',
     standalone: true,
@@ -15,7 +16,8 @@ import Swal from 'sweetalert2';
 export class MoviesComponent implements OnInit{
 
     constructor(private searcher:SearcherService){}
-    movies: any[]=[];
+
+    movies: Movie[]=[];
     ngOnInit(): void {
         
     }
